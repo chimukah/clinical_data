@@ -11,8 +11,8 @@ library(dplyr)
 
 # Load Data 
 
-clinical_data = data.frame(read.sas7bdat(file = "C:/Users/megob/OneDrive/Documents/Clinical Trials Data/chapter15_example.sas7bdat"))
-save(clinical_data, file = "C:/Users/megob/OneDrive/Documents/Clinical Trials Data/Meaghan_App/clinical_data.RData")
+clinical_data = data.frame(read.sas7bdat(file = "/chapter15_example.sas7bdat"))
+save(clinical_data, file = "clinical_data.RData")
 
 
 # Summary Checks on Data 
